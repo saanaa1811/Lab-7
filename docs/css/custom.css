@@ -42,6 +42,14 @@
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
-    color: #0b0707;
+    color: #000000;
     background: #ebf7f5;
+}
+
+
+@media (min-width: 992px) {
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+        color: #ffffff;
+        background: #fff;
+    }
 }
